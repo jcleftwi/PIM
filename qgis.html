@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+  <h1>QGIS Lab Images</h1>
+<h2>Neon Airports</h2>
+  <img src="QGISNeonAirports.png" alt="Neon Airports Image">
+<br />
+<p>The data used to create this image was simple airport locations and lines connecting them to one another. To create the neon effect, the flight paths were given an outer glow and an additional white line was added add to the visual to exacerbate the neon-ness.</p>
+<br />
+<h2>Bathymetry</h2>
+  <img src="QGISBathymetry.png" alt="Bathymetry Image">
+<br />
+<p>The data used to create this image was multiple bathymetry layers that fit together giving the appearance of a continuous plane. The final image was created by utilizing the draw effects option for each layer, making each layer appear as a discrete object overlaid onto each lower layer. Thus making the finished project look like a woodcutting.</p>
+<br />
+<h2>Jemez Image 1</h2>
+  <img src="Jemez.JPG" alt="Jemez Image">
+<br />
+<p>The datat used to create this image and the next was a DEM and a polygon layer. The image shows the polygon layer draped over the DEM hillshaded layer in a way that it does not wash out. It was created by using the multiply blending mode on the polygon layer and then for the blending mode for the township layer, selecting the overlay option.</p>
+<br />
+<h2>Jemez Image 2</h2>
+  <img src="Jemez2.JPG" alt="Jemez 2 Image">
+<br />
+<p>This image uses the same data as the previous image as well as the same methods for creation. Only this image also has labels added in a way that they do not cross lines or appear behind the QGIS logo, which is done by changing the label blocking items option. They are also rendered using the soft light blending mode.</p>
+<br />
+<h2>Denmark Roads</h2>
+  <img src="DenmarkOSMRoads.JPG" alt="Denmark Roads Image">
+<br />
+<p>The data used to create this image are layers for Denmark's roads, water bodies, and country boundaries. The final image was created by using the addition option for feature blending mode.</p>
+<br />
+<h2>USA</h2>
+  <img src="usa.JPG" alt="USA Image">
+<br />
+<p>The data used to create this image is solely a layer containing the U.S. states. To create the final image 3 additional layers were created from the first. Topological coloring was used to make it so that the states were colored so that no adjacent states had the same color, the colors generated were done so at random. The shapeburst effect was used to make the color gradually fade into the state itself. The duplicate layers made use of the multiply rendering option and finally a road map was added for context.</p>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
